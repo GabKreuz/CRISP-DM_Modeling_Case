@@ -3,23 +3,30 @@
 **Case Study - CRISP-DM: Modeling**
 
 1. **Business Understanding**
+
    1.1 **Objective**
+
    The goal of this case study is to develop a predictive model for house prices based on the California Housing dataset. The model aims to provide accurate estimates of house prices using demographic and socioeconomic variables derived from the 1990 U.S. census.
 
-2. **Data Understanding**
+3. **Data Understanding**
+
    2.1 **Data Source**
    The data was obtained from the 1990 U.S. census, with one row per census block group. Each census block group represents the smallest geographical unit for which the U.S. Census Bureau publishes sample data.
+
    2.2 **Variables**
    The dataset includes variables such as population, average income, average house price, number of rooms in houses, among others. The target variable is the average house price.
+
    2.3 **Initial Exploration**
    An initial exploratory analysis was conducted to understand the distribution of variables, identify missing values, and analyze correlations between variables.
 
-3. **Data Preparation**
+5. **Data Preparation**
+
    No cleaning, transformation, or normalization techniques were needed.
+
    3.3 **Data Splitting**
    A train/test split was performed with 20% of the data allocated for testing.
 
-4. **Modeling**
+7. **Modeling**
    4.1 **Model Selection**
    Three modeling techniques were evaluated using MSE (Mean Squared Error) and RMSE (Root Mean Squared Error) as evaluation metrics to penalize large prediction errors.
    a. **Linear Regression**
